@@ -25,6 +25,8 @@ system.out.println("Esta línea es en la rama remota");
 public static int sumar( int a, int b){
 System.out.println("Sumando" + a + " + " + b + "...");
 int resultado = a + b;
+System.out.println("Este mensaje es desde la rama remoto");
+
 return resultado;
 
 } 
