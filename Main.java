@@ -19,6 +19,8 @@ return a + b;
 public static void mostrarSaludo(String nombre){ 
 System.out.println("Hola" + nombre); 
 >>>>>>> feature-suma
+system.out.println("Esta línea es en la rama remota");
+
 } 
 public static int sumar( int a, int b){
 System.out.println("Sumando" + a + " + " + b + "...");
